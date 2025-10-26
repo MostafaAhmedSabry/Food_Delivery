@@ -54,4 +54,4 @@ Flutter Cookbook
 Flutter Documentation
 
 📸 Screenshots
-<img width="1440" height="3120" alt="image" src="https://github.com/user-attachments/assets/03b704e1-ebd8-438b-a406-123e8d4a9c3a" />
+<img width="640" height="312" alt="image" src="https://github.com/user-attachments/assets/03b704e1-ebd8-438b-a406-123e8d4a9c3a" />
