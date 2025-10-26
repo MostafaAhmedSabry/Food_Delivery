@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
-
 import '../../extension/color_extension.dart';
 import '../../widget/round_button.dart';
 import '../../widget/round_textfield.dart';
-
+import 'otp_view.dart';
 
 class ResetPasswordView extends StatefulWidget {
   const ResetPasswordView({super.key});
@@ -24,9 +23,7 @@ class _ResetPasswordViewState extends State<ResetPasswordView> {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
-              const SizedBox(
-                height: 64,
-              ),
+              const SizedBox(height: 64),
               Text(
                 "Reset Password",
                 style: TextStyle(
@@ -34,36 +31,35 @@ class _ResetPasswordViewState extends State<ResetPasswordView> {
                     fontSize: 30,
                     fontWeight: FontWeight.w800),
               ),
-
-              const SizedBox(
-                height: 15,
-              ),
-
+              const SizedBox(height: 15),
               Text(
-                "Please enter your email to receive a\n reset code to create a new password via email",
+                "Please enter your email to receive a\nreset code to create a new password via email",
                 textAlign: TextAlign.center,
                 style: TextStyle(
                     color: TColor.secondaryText,
                     fontSize: 14,
                     fontWeight: FontWeight.w500),
               ),
-              const SizedBox(
-                height: 60,
-              ),
+              const SizedBox(height: 60),
               RoundTextfield(
                 hintText: "Your Email",
                 controller: txtEmail,
                 keyboardType: TextInputType.emailAddress,
               ),
-              const SizedBox(
-                height: 30,
+              const SizedBox(height: 30),
+              RoundButton(
+                title: "Send",
+                onPressed: () {
+                  if (txtEmail.text.isNotEmpty) {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => OTPView(email: txtEmail.text),
+                      ),
+                    );
+                  }
+                },
               ),
-
-              RoundButton(title: "Send", onPressed: () {
-                // btnSubmit();
-
-              }),
-
             ],
           ),
         ),
