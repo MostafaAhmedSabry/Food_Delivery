@@ -54,11 +54,6 @@ Flutter Cookbook
 Flutter Documentation
 
 📸 Screenshots
-<img width="1440" height="3120" alt="image" src="https://github.com/user-attachments/assets/8ea192f2-10f5-4832-b24b-774504b876ac" />
+<p align="center"> <img src="https://github.com/user-attachments/assets/8ea192f2-10f5-4832-b24b-774504b876ac" width="220" /> <img src="https://github.com/user-attachments/assets/5710aff3-5ea1-4c88-9b63-9687e1ff8cd7" width="220" /> <img src="https://github.com/user-attachments/assets/ee926e3b-5fb5-4b7d-b2f1-a6bc86658cc5" width="220" /> </p>
 
-<img width="1440" height="3120" alt="image" src="https://github.com/user-attachments/assets/5710aff3-5ea1-4c88-9b63-9687e1ff8cd7" />
-
-
-<img width="1440" height="3120" alt="image" src="https://github.com/user-attachments/assets/ee926e3b-5fb5-4b7d-b2f1-a6bc86658cc5" />
-<img width="1440" height="3120" alt="image" src="https://github.com/user-attachments/assets/6dbd0b3e-ac39-4a1a-aa9f-c07080b08893" />
-<img width="1440" height="3120" alt="image" src="https://github.com/user-attachments/assets/a46bf769-7e58-4599-84bd-1b56e4e5e2da" />
+<p align="center"> <img src="https://github.com/user-attachments/assets/6dbd0b3e-ac39-4a1a-aa9f-c07080b08893" width="220" /> <img src="https://github.com/user-attachments/assets/a46bf769-7e58-4599-84bd-1b56e4e5e2da" width="220" /> </p>
