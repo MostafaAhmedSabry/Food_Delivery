@@ -1,16 +1,57 @@
-# food_delivery
+🍽️ food_delivery
+food_delivery is a modern Flutter-based food delivery app that lets users browse restaurants, order meals, and pay seamlessly—all from their mobile device. Designed with a clean UI and smooth user experience, the app supports real-time order tracking and multiple payment methods.
 
-A new Flutter project.
+🚀 Features
+🔍 Explore Restaurants: Discover over 1,000 restaurants offering Sri Lankan, Italian, Western, and more cuisines.
 
-## Getting Started
+🛒 Smart Ordering: Customize your meal, choose portion sizes, and add ingredients with ease.
 
-This project is a starting point for a Flutter application.
+📦 Live Order Tracking: Follow your order from kitchen to doorstep in real time.
 
-A few resources to get you started if this is your first Flutter project:
+💳 Flexible Payments: Pay via credit/debit card or cash on delivery.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+🔐 User Account Management: Sign up, log in, reset passwords, and manage your profile and saved addresses.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+🔔 Notifications: Get instant updates on order status and promotions.
+
+📱 Screens Included
+Login / Sign Up
+
+Home (Food Categories, Offers, Popular Restaurants)
+
+Menu & Item Details
+
+Cart & Checkout
+
+Payment Methods
+
+Order Tracking
+
+Profile & Settings
+
+🧰 Tech Stack
+Flutter & Dart
+
+REST APIs for dynamic content and order processing
+
+Firebase (optional for auth or backend)
+
+Modern UI/UX inspired by Figma and Dribbble
+
+🧑‍💻 Getting Started
+To run the project locally:
+
+bash
+git clone https://github.com/your-username/food_delivery.git
+cd food_delivery
+flutter pub get
+flutter run
+📚 Resources
+Write your first Flutter app
+
+Flutter Cookbook
+
+Flutter Documentation
+
+📸 Screenshots
+<img width="1440" height="3120" alt="image" src="https://github.com/user-attachments/assets/03b704e1-ebd8-438b-a406-123e8d4a9c3a" />
