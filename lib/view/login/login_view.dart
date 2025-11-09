@@ -118,9 +118,7 @@ class _LoginViewState extends State<LoginView> {
                 onPressed: () {
                   Navigator.push(
                     context,
-                    MaterialPageRoute(
-                      builder: (context) => const SignUpView(),
-                    ),
+                    MaterialPageRoute(builder: (context) => const SignUpView()),
                   );
                 },
                 child: Row(
