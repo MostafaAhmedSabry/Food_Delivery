@@ -11,7 +11,7 @@ class MenuItemRow extends StatelessWidget {
     this.name = '',
     this.image = '',
     this.price = 0.0,
-    this.onTap,
+    this.onTap, required Map mObj,
   }) : super(key: key);
 
   @override
