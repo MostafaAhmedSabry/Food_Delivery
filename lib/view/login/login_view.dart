@@ -47,6 +47,7 @@ class _LoginViewState extends State<LoginView> {
                   fontWeight: FontWeight.w500,
                 ),
               ),
+
               const SizedBox(height: 25),
               RoundTextfield(
                 hintText: "Your Email:",
@@ -55,7 +56,7 @@ class _LoginViewState extends State<LoginView> {
               ),
               const SizedBox(height: 25),
               RoundTextfield(
-                hintText: "Password",
+                hintText: "Password: ",
                 controller: txtPassword,
                 obscureText: true ,
               ),
