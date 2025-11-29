@@ -49,7 +49,7 @@ class _LoginViewState extends State<LoginView> {
               ),
               const SizedBox(height: 25),
               RoundTextfield(
-                hintText: "Your Email",
+                hintText: "Your Email:",
                 controller: txtEmail,
                 keyboardType: TextInputType.emailAddress,
               ),
@@ -118,9 +118,7 @@ class _LoginViewState extends State<LoginView> {
                 onPressed: () {
                   Navigator.push(
                     context,
-                    MaterialPageRoute(
-                      builder: (context) => const SignUpView(),
-                    ),
+                    MaterialPageRoute(builder: (context) => const SignUpView()),
                   );
                 },
                 child: Row(
