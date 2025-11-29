@@ -9,12 +9,13 @@ import '../../widget/most_popular_cell.dart';
 import '../../view/order/view_all_title_row.dart';
 import '../../view/order/my_order_view.dart';
 
+
 class HomeView extends StatefulWidget {
   const HomeView({super.key});
-
   @override
   State<HomeView> createState() => _HomeViewState();
 }
+
 
 class _HomeViewState extends State<HomeView> {
   TextEditingController txtSearch = TextEditingController();
@@ -25,6 +26,8 @@ class _HomeViewState extends State<HomeView> {
     {"image": "assets/img/cat_3.png", "name": "Italian"},
     {"image": "assets/img/cat_4.png", "name": "Indian"},
   ];
+
+
 
   List popArr = [
     {
@@ -240,7 +243,7 @@ class _HomeViewState extends State<HomeView> {
               ),
               Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 20),
-                child: ViewAllTitleRow(title: "Recent Items", onView: () {}),
+                child: ViewAllTitleRow(title:"Recent Items", onView: () {}),
               ),
               ListView.builder(
                 physics: const NeverScrollableScrollPhysics(),
@@ -258,4 +261,5 @@ class _HomeViewState extends State<HomeView> {
       ),
     );
   }
+
 }
