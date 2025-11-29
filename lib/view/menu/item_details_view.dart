@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 import 'package:otp_pin_field/otp_pin_field.dart';
 import '../../extension/color_extension.dart';
 import '../../widget/round_button.dart';
