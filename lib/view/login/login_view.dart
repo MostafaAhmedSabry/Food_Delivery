@@ -57,7 +57,7 @@ class _LoginViewState extends State<LoginView> {
               RoundTextfield(
                 hintText: "Password",
                 controller: txtPassword,
-                obscureText: true,
+                obscureText: true ,
               ),
               const SizedBox(height: 25),
               RoundButton(

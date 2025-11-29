@@ -13,6 +13,7 @@ class NewPasswordView extends StatefulWidget {
 }
 
 class _NewPasswordViewState extends State<NewPasswordView> {
+
   TextEditingController txtPassword = TextEditingController();
   TextEditingController txtConfirmPassword = TextEditingController();
 
@@ -63,14 +64,12 @@ class _NewPasswordViewState extends State<NewPasswordView> {
                   String confirmPassword = txtConfirmPassword.text;
 
                   if (password == confirmPassword && password.isNotEmpty) {
-                    // هنا ممكن تضيف كود API لتغيير الباسورد
                     ScaffoldMessenger.of(context).showSnackBar(
                       const SnackBar(
                         content: Text("Password changed successfully."),
                       ),
                     );
 
-                    // بعد النجاح → العودة إلى صفحة تسجيل الدخول
                     Navigator.pushAndRemoveUntil(
                       context,
                       MaterialPageRoute(
