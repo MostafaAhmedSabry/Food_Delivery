@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:food_delivery/view/on_boarding/on_boarding_view.dart';
 import 'package:food_delivery/view/on_boarding/startup_view.dart';
 
 void main() {
