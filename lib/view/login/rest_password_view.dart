@@ -7,9 +7,13 @@ import 'otp_view.dart';
 class ResetPasswordView extends StatefulWidget {
   const ResetPasswordView({super.key});
 
+
+
   @override
   State<ResetPasswordView> createState() => _ResetPasswordViewState();
 }
+
+
 
 class _ResetPasswordViewState extends State<ResetPasswordView> {
   TextEditingController txtEmail = TextEditingController();
@@ -25,7 +29,7 @@ class _ResetPasswordViewState extends State<ResetPasswordView> {
             children: [
               const SizedBox(height: 64),
               Text(
-                "Reset Password",
+                "Reset Password  ",
                 style: TextStyle(
                     color: TColor.primaryText,
                     fontSize: 30,
