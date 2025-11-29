@@ -9,7 +9,6 @@ class StartupView extends StatefulWidget {
 }
 
 class _StartupViewState extends State<StartupView> {
-
   @override
   void initState() {
     super.initState();
@@ -17,14 +16,14 @@ class _StartupViewState extends State<StartupView> {
   }
 
   void goWelcomePage() async {
-    await Future.delayed( const Duration(seconds: 3) );
+    await Future.delayed(const Duration(seconds: 3));
     welcomePage();
   }
 
-  void welcomePage(){
+  void welcomePage() {
     Navigator.pushReplacement(
-        context,
-        MaterialPageRoute(builder: (context) => const WelcomeView())
+      context,
+      MaterialPageRoute(builder: (context) => const WelcomeView()),
     );
   }
 
