@@ -4,6 +4,7 @@ import '../../extension/color_extension.dart';
 import '../../widget/round_button.dart';
 import '../../widget/round_textfield.dart';
 import 'login_view.dart';
+import 'otp_view.dart';
 
 class SignUpView extends StatefulWidget {
   const SignUpView({super.key});
@@ -78,13 +79,6 @@ class _SignUpViewState extends State<SignUpView> {
               RoundButton(
                 title: "Sign Up",
                 onPressed: () {
-                  // btnSignUp();
-                  //  Navigator.push(
-                  //       context,
-                  //       MaterialPageRoute(
-                  //         builder: (context) => const OTPView(),
-                  //       ),
-                  //     );
                 },
               ),
               const SizedBox(height: 30),

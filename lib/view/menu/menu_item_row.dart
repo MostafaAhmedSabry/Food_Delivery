@@ -5,10 +5,19 @@ class MenuItemRow extends StatelessWidget {
   final VoidCallback? onTap;
 
   const MenuItemRow({
+
     super.key,
     required this.mObj,
     this.onTap,
   });
+
+    Key? key,
+    this.name = '',
+    this.image = '',
+    this.price = 0.0,
+    this.onTap, required Map mObj,
+  }) : super(key: key);
+
 
   @override
   Widget build(BuildContext context) {

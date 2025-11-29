@@ -11,9 +11,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        fontFamily: 'Metropolis',
-      ),
+      theme: ThemeData(fontFamily: 'Metropolis'),
       home: const StartupView(),
     );
   }
