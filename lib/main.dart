@@ -7,14 +7,13 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
+  //add line
   const MyApp({super.key});
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        fontFamily: 'Metropolis',
-      ),
+      theme: ThemeData(fontFamily: 'Metropolis'),
       home: const StartupView(),
     );
   }
