@@ -56,7 +56,7 @@ class _LoginViewState extends State<LoginView> {
               ),
               const SizedBox(height: 25),
               RoundTextfield(
-                hintText: "Password: ",
+                hintText: "Password:",
                 controller: txtPassword,
                 obscureText: true ,
               ),
@@ -126,7 +126,7 @@ class _LoginViewState extends State<LoginView> {
                   mainAxisSize: MainAxisSize.min,
                   children: [
                     Text(
-                      "Don't have an Account? ",
+                      "Don't have an Account?",
                       style: TextStyle(
                         color: TColor.secondaryText,
                         fontSize: 14,
