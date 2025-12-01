@@ -1,10 +1,9 @@
 import 'package:flutter/material.dart';
-
 import '../../extension/color_extension.dart';
 import '../../widget/round_button.dart';
 import '../../widget/round_textfield.dart';
 import 'login_view.dart';
-import 'otp_view.dart';
+import 'otp_view.dart ';
 
 class SignUpView extends StatefulWidget {
   const SignUpView({super.key});
@@ -32,7 +31,7 @@ class _SignUpViewState extends State<SignUpView> {
             children: [
               const SizedBox(height: 64),
               Text(
-                "Sign Up",
+                "  Sign Up  ",
                 style: TextStyle(
                   color: TColor.primaryText,
                   fontSize: 30,
@@ -40,7 +39,7 @@ class _SignUpViewState extends State<SignUpView> {
                 ),
               ),
               Text(
-                "Add your details to sign up",
+                "Add your details to sign up ",
                 style: TextStyle(
                   color: TColor.secondaryText,
                   fontSize: 14,
@@ -76,11 +75,7 @@ class _SignUpViewState extends State<SignUpView> {
                 obscureText: true,
               ),
               const SizedBox(height: 25),
-              RoundButton(
-                title: "Sign Up",
-                onPressed: () {
-                },
-              ),
+              RoundButton(title: "Sign Up", onPressed: () {}),
               const SizedBox(height: 30),
               TextButton(
                 onPressed: () {
