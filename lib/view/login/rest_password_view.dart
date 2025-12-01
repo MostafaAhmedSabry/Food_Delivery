@@ -27,18 +27,20 @@ class _ResetPasswordViewState extends State<ResetPasswordView> {
               Text(
                 "Reset Password",
                 style: TextStyle(
-                    color: TColor.primaryText,
-                    fontSize: 30,
-                    fontWeight: FontWeight.w800),
+                  color: TColor.primaryText,
+                  fontSize: 30,
+                  fontWeight: FontWeight.w800,
+                ),
               ),
               const SizedBox(height: 15),
               Text(
                 "Please enter your email to receive a\nreset code to create a new password via email",
                 textAlign: TextAlign.center,
                 style: TextStyle(
-                    color: TColor.secondaryText,
-                    fontSize: 14,
-                    fontWeight: FontWeight.w500),
+                  color: TColor.secondaryText,
+                  fontSize: 14,
+                  fontWeight: FontWeight.w500,
+                ),
               ),
               const SizedBox(height: 60),
               RoundTextfield(
